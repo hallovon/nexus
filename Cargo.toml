@@ -1,0 +1,3 @@
+[workspace]
+resolver = "2"
+members = [ "nexus","nexus_core", "nexus_net", "nexus_server"]

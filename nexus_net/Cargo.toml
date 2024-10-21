@@ -1,0 +1,10 @@
+[package]
+name = "nexus_net"
+version = "0.1.0"
+edition = "2021"
+
+[dependencies]
+nexus_core = { path = "../nexus_core" }
+tokio = { version = "1", features = ["full"] }
+tokio-tungstenite = "0.24"
+reqwest = { version = "0.12", features = ["json"] }
